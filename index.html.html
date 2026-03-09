@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>LOVING Home</title>
+
+    <!-- دعم الموبايل -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- وصف الموقع لمحركات البحث وقارئات الشاشة -->
+    <meta name="description" content="موقع LOVING Home فندق فاخر للكلاب يقدم خدمات الإقامة والتدريب والعناية.">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff914d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            color: #f0edec;
+            outline: 2px solid white;
+        }
+
+        .hero {
+            background-image: url('صور/R.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #f0aa7f;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover,
+        button:focus {
+            background-color: #f3c7ab;
+            outline: 2px solid black;
+        }
+
+        /* رابط تخطي القائمة */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            background: black;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">تخطي إلى المحتوى</a>
+
+<header>
+    <h1>LOVING Home</h1>
+</header>
+
+<nav aria-label="القائمة الرئيسية">
+   <a href="الخدمات .html">الخدمات</a>
+   <a href="اتصل بنا.html">تواصل معنا</a>
+   <a href="من نحن.html">من نحن</a>
+   <a href="الحجوزات .html">الحجوزات</a>
+   <a href="الاسعار.html">الأسعار</a>
+   <a href="معرض صور.html">معرض الصور</a>
+   <a href="اراء العميل.html">آراء العميل</a>
+</nav>
+
+<div class="hero" role="img" aria-label="فندق فاخر للكلاب يوفر إقامة مريحة">
+    أفضل إقامة فاخرة لكلبك
+</div>
+
+<main id="main" class="content">
+    <h2>خدماتنا</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>إقامة يومية</h3>
+            <p>غرف مريحة ونظيفة مع متابعة مستمرة لكلبك.</p>
+        </div>
+
+        <div class="card">
+            <h3>تدريب</h3>
+            <p>برامج تدريب احترافية بإشراف مدربين مختصين.</p>
+        </div>
+
+        <div class="card">
+            <h3>استحمام وعناية</h3>
+            <p>تنظيف وتجميل للحفاظ على صحة كلبك.</p>
+        </div>
+
+    </div>
+
+    <br>
+
+    <button aria-label="احجز إقامة لكلبك الآن">احجز الآن</button>
+
+</main>
+
+<footer>
+    <p>© 2026 LOVING Home - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
