@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>فندق الكلاب السعيد</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    direction:rtl;
+    color:white;
+}
+
+/* فيديو الخلفية */
+#bg-video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height:100%;
+    object-fit:cover;
+    z-index:-1;
+}
+
+/* طبقة شفافة فوق الفيديو */
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    z-index:-1;
+}
+
+header{
+    background-color:#f28c4b;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav{
+    background-color:#333;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:10px 0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    padding:5px 10px;
+}
+
+nav a:hover{
+    background-color:#555;
+    border-radius:5px;
+}
+
+.services-container{
+    max-width:800px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    padding:0 20px;
+}
+
+.service-card{
+    background-color:rgba(255,255,255,0.9);
+    border-left:4px solid #f28c4b;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    color:#333;
+}
+
+.service-card h3{
+    margin-top:0;
+}
+
+.price{
+    margin-top:10px;
+    color:#f28c4b;
+    font-weight:bold;
+}
+
+footer{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- فيديو الخلفية -->
+<video autoplay muted loop id="bg-video">
+<source src="فيديو/222.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<header>
+    LOVING Home
+</header>
+
+<nav>
+<a href="الصفحة الرئيسية .html">الرئيسية</a>
+<a href="اتصل بنا.html">تواصل معنا</a>
+<a href="من نحن.html">من نحن</a>
+<a href="الحجوزات .html">الحجوزات</a>
+<a href="الاسعار.html">الأسعار</a>
+<a href="معرض صور.html">معرض الصور</a>
+<a href="اراء العميل.html">آراء العملاء</a>
+</nav>
+
+<div class="services-container">
+
+<div class="service-card">
+<h3>حجوزات المميزة</h3>
+<p>المشي اربعة مرات مع ممارسة اربعة انشطة يوميا </p>
+<p>مساحة عشب خاصة</p>
+<p>تحديثات مع صور اليومية</p>
+<p>مكافات على نحو المتفق علية مع صحاب الحيوان الاليف</p>
+<p class="price">السعر: 50 دينار في اليوم</p>
+</div>
+
+<div class="service-card">
+<h3>حجوزات الاكلاسيكية </h3>
+<p>المشي ثلاثة مرات مع ممارسة ثلاثة انشطة يوميا</p>
+<p>حظيرة لعب داخلية</p>
+<p>منطقة للاسترخاء</p>
+<p>جلسة حلاقة وتنظيف</p>
+<p class="price">السعر: 30 دينار</p>
+</div>
+
+<div class="service-card">
+<h3> حجزات اليوم</h3>
+<p>المشي مرتين يوميا</p>
+<p>منطقة لعب خارجية</p>
+<p>مسار الرشلقة</p>
+<p>حفر حفرة الرمال</p>
+<p>تتوفر حزم مخصصة للاقامات الطويلة او للكلاب \ات المتطلبات الاضافية يجب على العملاء الاتصال بالشركة لترتيب اي حزم مخصصة</p>
+
+<p class="price">السعر: 20 دينار في الساعة</p>
+</div>
+
+<div class="service-card">
+<h3>التدريب</h3>
+<p>تدريب الكلاب على الطاعة وتحسين السلوك.</p>
+<p class="price">السعر: 200 دينار للدورة</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 فندق الكلاب السعيد - جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
